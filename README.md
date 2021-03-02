@@ -1,2 +1,3 @@
 # stock_price_prediction
- Stock price prediction with LSTM
+
+ Stock price was prediction using LSTM
