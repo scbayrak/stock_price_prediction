@@ -1,0 +1,2 @@
+,test_no,symbol,model,epochs,optimiser,loss_funct,learning_rate,seq_len,batch_size,start_date,end_date,input_dim,hidden_dim,n_layers,output_dim,RMSE,MPA,MDA
+0,1,AAPL,GRU,2,adam,MSE,0.001,5,32,2015-01-01,2020-01-01,1,128,1,1,22.801,0.92,0.52

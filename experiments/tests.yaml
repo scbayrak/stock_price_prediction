@@ -1,0 +1,2052 @@
+Tests:
+  - test_no : 1
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 2
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 3
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 4
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 5
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 6
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 7
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 8
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 9
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 10
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 11
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 12
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 13
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 14
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 15
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 16
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 17
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 18
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 19
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 20
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 21
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 22
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 23
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 24
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 25
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 26
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 27
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 28
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 29
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 30
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 31
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 32
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 33
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 34
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 35
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 36
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 37
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 38
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 39
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 40
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 41
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 42
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 43
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 44
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 45
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 46
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 47
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 48
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 49
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 50
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 51
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 52
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 53
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 54
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 55
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 56
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 57
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 58
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 59
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 60
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 61
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 62
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 63
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 64
+    symbol: AAPL
+    model : GRU
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 65
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 66
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 67
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 68
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 69
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 70
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 71
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 72
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 73
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 74
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 75
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 76
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 77
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 78
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 79
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 80
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 81
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 82
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 83
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 84
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 85
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 86
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 87
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 88
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 89
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 90
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 91
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 92
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 93
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 94
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 95
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 96
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 1 
+    output_dim : 1
+
+  - test_no : 97
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 98
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 99
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 100
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 101
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 102
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 103
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 104
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 105
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 106
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 107
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 108
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 109
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 110
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 111
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 112
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 128
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 113
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 114
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 5
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 115
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 116
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 10
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 117
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 118
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 119
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 120
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 20
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 121
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 122
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 40
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 123
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 124
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 60
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 125
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 126
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 90
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 127
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : adam
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+  - test_no : 128
+    symbol: AAPL
+    model : LSTM
+    epochs : 500
+    optimiser : SGD
+    loss_funct : MSE
+    learning_rate : 0.001
+    seq_len : 120
+    batch_size : 32
+    start_date : 2015-01-01
+    end_date : 2020-01-01
+    input_dim : 1
+    hidden_dim: 256
+    n_layers: 2
+    output_dim : 1
+
+
+
+  
